@@ -82,12 +82,14 @@ Class imbalance handling techniques were applied where necessary.
 ## Results Summary
 
 ### Regression Performance
+![Regression Model Performance](assets/regression_results.png)
 - Multiple regression models were evaluated, including linear models, SVR, XGBoost, and LightGBM.
 - **LightGBM** emerged as the best-performing regression model after hyperparameter tuning.
 - Achieved a **Test RMSE of 4.42 MPa** and **Test R² of 0.9278**, indicating strong predictive accuracy and high explained variance.
 - Tree-based ensemble models consistently outperformed linear and kernel-based methods, especially when combined with domain-driven feature engineering.
 
 ### Classification Performance
+![Classification Model Performance](assets/classification_results.png)
 - Concrete mixes were classified for RCC suitability based on **IS 456:2000** criteria.
 - Several classifiers were evaluated, including Logistic Regression, SVM, Decision Trees, and Gradient Boosting.
 - A **tuned Logistic Regression model** achieved the best overall performance with:
